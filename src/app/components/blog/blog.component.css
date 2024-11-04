@@ -1,0 +1,33 @@
+/* src/app/blog/blog.component.css */
+.blog-container {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin:30px;
+
+  }
+  
+  .add-article-form, .article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .vote-buttons button {
+    margin: 5px;
+    padding: 8px 16px;
+  }
+  
+  .article img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 10px 0;
+  }
+  
